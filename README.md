@@ -1,5 +1,5 @@
 # Bias-Resilient Neural Network
 
-Ehsan Adeli, Qingyu Zhao, Adolf Pfefferbaum, Edith V. Sullivan, Li Fei-Fei, Juan Carlos Niebles, Kilian M. Pohl
+Qingyu Zhao*, Ehsan Adeli*, Adolf Pfefferbaum, Edith V. Sullivan, Li Fei-Fei, Juan Carlos Niebles, Kilian M. Pohl
 
 https://arxiv.org/abs/1910.03676
