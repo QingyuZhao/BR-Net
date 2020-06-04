@@ -263,6 +263,7 @@ class GAN():
                 #filename = 'res_cf/scores_flip_'+str(fold)+'_'+str(epoch)+'.txt'
                 #np.savetxt(filename,score)
 
+                # save intermediate predictions
                 prediction = self.workflow.predict(test_data[:,:32,:,:],  batch_size = 64)
                 filename = 'res_cf_5cv/prediction_'+str(fold)+'_'+str(epoch)+'.txt'
                 np.savetxt(filename,prediction)
@@ -270,6 +271,7 @@ class GAN():
                 filename = 'res_cf_5cv/prediction_flip_'+str(fold)+'_'+str(epoch)+'.txt'
                 np.savetxt(filename,prediction)
 
+                # save ground-truth
                 filename = 'res_cf_5cv/dx_'+str(fold)+'.txt'
                 np.savetxt(filename,test_dx)    
                 filename = 'res_cf_5cv/cf_'+str(fold)+'.txt'
